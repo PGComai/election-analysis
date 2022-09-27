@@ -27,5 +27,12 @@ Their shares of the votes were as follows:
 The winner of the election was Diana DeGette with 73.8% of the vote, totalling 272,892.
 
 ## Challenge Overview
+Our challenge was to repeat the previous analysis while also keeping track of which county each vote came from. The votes spanned three counties; Jefferson, Denver, and Arapahoe. We calculated the amount of votes belonging to each county, their percentage of the total vote count, and the county with the highest voter turnout.
 
 ## Challenge Summary
+The county analysis results are as follows:
+- Jefferson: 10.5% (38,855)
+- Denver: 82.8% (306,055)
+- Arapahoe: 6.7% (24,801)
+
+The county with the most votes was Denver.
