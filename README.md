@@ -11,7 +11,7 @@ We've been asked by the Colorado Board of Elections to audit the results of a re
 - Source: election_results.csv
 - Software: Python 3.9.13, Anaconda Navigator 2.3.0, Jupyter 6.4.12
 
-## Summary
+## Results and Summary
 In total, 369,711 votes were cast. The candidates are listed below:
 
 - Charles Casper Stockham
@@ -25,6 +25,8 @@ Their shares of the votes were as follows:
 - Raymon Anthony Doane: 3.1% (11,606)
 
 The winner of the election was Diana DeGette with 73.8% of the vote, totalling 272,892.
+
+To the Colorado Board of Elections: This script can be used with any table of votes that is formatted exactly like election_results.csv. Regardless of the number of candidates or counties in the election, the script will count just fine. The code checks columns with index 1 and 2 (columns 2 and 3), so adding other columns to the analysis would require looking at further indices. If a table has the same data but in different columns, the indices of the columns in the code may be changed to reflect the new data.
 
 ## Challenge Overview
 Our challenge was to repeat the previous analysis while also keeping track of which county each vote came from. The votes spanned three counties; Jefferson, Denver, and Arapahoe. We calculated the amount of votes belonging to each county, their percentage of the total vote count, and the county with the highest voter turnout.
